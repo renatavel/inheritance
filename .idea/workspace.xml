@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467df20e-c7dc-4196-806d-d852b2181f62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/AnimalName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Blowfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Blowfish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Pigeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Pigeon.java" afterDir="false" />
-    </list>
+    <list default="true" id="467df20e-c7dc-4196-806d-d852b2181f62" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
