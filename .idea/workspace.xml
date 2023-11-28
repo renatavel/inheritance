@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467df20e-c7dc-4196-806d-d852b2181f62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Blowfish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PackageAnimals/AnimalName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Blowfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Blowfish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageAnimals/Pigeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageAnimals/Pigeon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "additional",
     "last_opened_file_path": "C:/Users/renat/Downloads/lombok.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -70,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700639442723</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inheritance2">
+      <option name="closed" value="true" />
+      <created>1700680152143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700680152143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inheritance2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance2" />
   </component>
 </project>

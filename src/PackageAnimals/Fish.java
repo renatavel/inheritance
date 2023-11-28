@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Fish extends Animal {
+public class Fish extends Animal implements AnimalMove,AnimalName{
     String scalesColor;
     public Fish(){
 

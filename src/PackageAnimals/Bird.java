@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Bird extends Animal{
+public class Bird extends Animal implements AnimalMove,AnimalName{
     String featherColor;
     public Bird(){
 

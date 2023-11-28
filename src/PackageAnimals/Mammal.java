@@ -1,11 +1,11 @@
 package PackageAnimals;
+interface AnimalMove{
+    default void move(){
+        System.out.println(getClass()+"The animal is moving.");
+    };
+}
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-public class Mammal extends Animal{
+public class Mammal extends Animal implements AnimalMove,AnimalName{
    String furColor;
     public Mammal(){
 
@@ -31,9 +31,9 @@ public class Mammal extends Animal{
     public void getVoice(){
         System.out.println("The mammal is giving off some sounds.");
     };
-     public void sleep(){
-         System.out.println("The mammal is sleeping.");
-     };
+//     public void sleep(){
+//         System.out.println("The mammal is sleeping.");
+//     };
 
 
 }

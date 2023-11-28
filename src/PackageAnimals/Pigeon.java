@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Pigeon extends Bird{
+public class Pigeon extends Bird implements AnimalBehavior,AnimalMove,AnimalName{
     String species;
     public Pigeon(){
 
@@ -35,7 +35,15 @@ public class Pigeon extends Bird{
     public void getVoice(){
         System.out.println("The pigeon is giving off no sounds.");
     };
+    @Override
+    public void sleep(){
+        System.out.println("The dog is sleeping.");
+    };
 
+    @Override
+    public void move(){
+        System.out.println(getClass().getSimpleName()+" is swimming in the sea.");
+    }
     @Override
     public void fly(){
         System.out.println("The pigeon is flying.");

@@ -1,11 +1,9 @@
 package PackageAnimals;
+interface AnimalBehavior{
+    void sleep();
+}
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-public class Dog extends Mammal{
+public class Dog extends Mammal implements AnimalBehavior,AnimalMove,AnimalName{
  String breed;
  public Dog(){
 
@@ -39,10 +37,12 @@ public class Dog extends Mammal{
     public void sleep(){
         System.out.println("The dog is sleeping.");
     };
-
+    @Override
+    public void move(){
+        System.out.println(getClass().getSimpleName()+" is running.");
+    }
     public void run(){
         System.out.println("The dog is running around.");
-    };
-
+    }
 
 }

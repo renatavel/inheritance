@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Blowfish extends Fish{
+public class Blowfish extends Fish implements AnimalBehavior,AnimalMove,AnimalName{
     String fishSize;
     public Blowfish(){
 
@@ -33,15 +33,25 @@ public class Blowfish extends Fish{
     public void getVoice(){
         System.out.println("The blowfish is giving off no sounds.");
     };
+    @Override
+    public void sleep(){
+        System.out.println("The blowfish is sleeping.");
+    };
 
     @Override
     public void swim(){
         System.out.println("The blowfish is swimming.");
     };
 
+    @Override
+    public void move(){
+        System.out.println(getClass().getSimpleName()+" is swimmimg.");
+    }
+
     public void ask(){
         System.out.println("The blowfish is begging for the food");
     };
+
 
 
 }

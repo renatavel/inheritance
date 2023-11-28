@@ -1,11 +1,5 @@
 package PackageAnimals;
-
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-public abstract class Animal {
+public abstract class Animal{
     String name;
     int age,weight;
     Animal(){
@@ -16,6 +10,9 @@ public abstract class Animal {
         this.age=age;
         this.weight=weight;
     };
+    public String getName(){
+        return this.name;
+    }
 
     public abstract void eat();
     public abstract void getVoice();
